@@ -16,21 +16,21 @@ The code includes steps to preprocess images (e.g., normalization, cropping, aug
 ## Packages:
 ### 1.torch: 
 PyTorch for tensor operations and neural networks.    
-2.torchvision: 
+### 2.torchvision: 
 Provides image transformations and datasets.    
-3.CLIP: 
+### 3.CLIP: 
 From OpenAI, for text-image encoding.    
-4.taming-transformers: 
+### 4.taming-transformers: 
 For the VQGAN model.    
-5.omegaconf: 
+### 5.omegaconf: 
 For handling configuration files.    
-6.pytorch-lightning:
+### 6.pytorch-lightning:
 A framework to organize PyTorch code.    
-7.numpy: 
+### 7.numpy: 
 For numerical operations.    
-8.matplotlib.pyplot: 
+### 8.matplotlib.pyplot: 
 For plotting images.    
-9.PIL (Pillow): 
+### 9.PIL (Pillow): 
 Python Imaging Library.    
 
 ## Insights:
@@ -40,7 +40,7 @@ Python Imaging Library.   
 * The code optimizes the image generation process by defining a loss function that combines the similarity to "include" prompts and dissimilarity to "exclude" prompts.    
 
 ## Summary:
-This Colab project implements a generative image synthesis process that combines the power of VQGANs for image generation and CLIP for text-based guidance.  It allows users to generate images from text prompts while also having some control over excluding certain elements.  The code effectively demonstrates how to leverage pre-trained models like CLIP to achieve creative image generation.    
+It implements a generative image synthesis process that combines the power of VQGANs for image generation and CLIP for text-based guidance.  It allows users to generate images from text prompts while also having some control over excluding certain elements.  The code effectively demonstrates how to leverage pre-trained models like CLIP to achieve creative image generation.    
 
 
 
