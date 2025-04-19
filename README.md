@@ -14,15 +14,24 @@ The code optimizes the latent space of the VQGAN to produce images that maximize
 The code includes steps to preprocess images (e.g., normalization, cropping, augmentation) and text (tokenization).    
 
 ## Packages:
-1.torch: PyTorch for tensor operations and neural networks.    
-2.torchvision: Provides image transformations and datasets.    
-3.CLIP: From OpenAI, for text-image encoding.    
-4.taming-transformers: For the VQGAN model.    
-5.omegaconf: For handling configuration files.    
-6.pytorch-lightning: A framework to organize PyTorch code.    
-7.numpy: For numerical operations.    
-8.matplotlib.pyplot: For plotting images.    
-9.PIL (Pillow): Python Imaging Library.    
+1.torch: 
+PyTorch for tensor operations and neural networks.    
+2.torchvision: 
+Provides image transformations and datasets.    
+3.CLIP: 
+From OpenAI, for text-image encoding.    
+4.taming-transformers: 
+For the VQGAN model.    
+5.omegaconf: 
+For handling configuration files.    
+6.pytorch-lightning:
+A framework to organize PyTorch code.    
+7.numpy: 
+For numerical operations.    
+8.matplotlib.pyplot: 
+For plotting images.    
+9.PIL (Pillow): 
+Python Imaging Library.    
 
 ## Insights:
 * The project demonstrates how CLIP can be used as a powerful tool to guide image generation by leveraging text prompts.    
