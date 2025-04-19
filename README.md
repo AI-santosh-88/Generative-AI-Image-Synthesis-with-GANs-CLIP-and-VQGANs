@@ -14,7 +14,7 @@ The code optimizes the latent space of the VQGAN to produce images that maximize
 The code includes steps to preprocess images (e.g., normalization, cropping, augmentation) and text (tokenization).    
 
 ## Packages:
-1.torch: 
+### 1.torch: 
 PyTorch for tensor operations and neural networks.    
 2.torchvision: 
 Provides image transformations and datasets.    
